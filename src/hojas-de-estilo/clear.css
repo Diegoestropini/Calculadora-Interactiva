@@ -1,0 +1,15 @@
+.clear {
+    background: rgb(19, 180, 119);
+    border: none;
+    color: rgb(3, 18, 231);
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 20%;
+  }
+
+   
+  .clear:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
