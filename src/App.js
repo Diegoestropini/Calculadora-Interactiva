@@ -12,8 +12,8 @@ function App() {
   const [input, setInput] = useState('');
 
   const agregoNumero = val => {
-    setInput(input + val);
-  }; 
+    setInput(prev => prev + val);
+  };
 
   const calcularResultado = () => {
     if (input) { 
